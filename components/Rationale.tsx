@@ -4,7 +4,7 @@ const Rationale: React.FC = () => {
   return (
     <div className="bg-white min-h-screen pt-12 pb-24">
       <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12">
-        
+
         {/* Document Header */}
         <div className="border-b-2 border-editorial-text pb-8 mb-12">
           <h1 className="text-4xl md:text-5xl font-serif font-bold text-editorial-text mb-4">
@@ -17,8 +17,8 @@ const Rationale: React.FC = () => {
         </div>
 
         {/* Content Body */}
-        <article className="prose prose-stone prose-lg max-w-none font-sans text-editorial-slate">
-          
+        <article className="prose prose-stone prose-lg max-w-none font-sans text-editorial-slate text-justify">
+
           <section className="mb-12">
             <h2 className="text-2xl font-serif font-bold text-editorial-text mb-4">1.0 Introduction and Campaign Focus</h2>
             <p>
@@ -43,7 +43,7 @@ const Rationale: React.FC = () => {
 
           <section className="mb-12">
             <h2 className="text-2xl font-serif font-bold text-editorial-text mb-4">2.0 Product, Regulatory Compliance, and Messaging Strategy</h2>
-            
+
             <h3 className="text-xl font-bold text-editorial-text mt-6 mb-3">2.1 The Utipro Plus AF Product and Unique Selling Proposition (USP)</h3>
             <p>
               Utipro Plus AF is marketed as a medical device intended for the control and prevention of recurring UTIs.
@@ -89,7 +89,7 @@ const Rationale: React.FC = () => {
               </li>
               <li>
                 <strong>Empowerment:</strong> The core message is shifting from treating a problem to <strong>controlling and
-                preventing</strong> it. The tagline, "The Power to Prevent," directly speaks to the user’s ability to take
+                  preventing</strong> it. The tagline, "The Power to Prevent," directly speaks to the user’s ability to take
                 proactive control over their health, leading to a better quality of life. This narrative positions
                 Utipro Plus AF as the tool for self-efficacy.
               </li>
@@ -126,7 +126,7 @@ const Rationale: React.FC = () => {
                 </tbody>
               </table>
             </div>
-            
+
             <h3 className="text-xl font-bold text-editorial-text mt-6 mb-3">3.2 Utipro’s Differentiated Positioning</h3>
             <p>
               Utipro Plus AF occupies a valuable niche: <strong>The Clinically Proven, Non-Antibiotic Preventative Medical Device.</strong>
@@ -137,18 +137,18 @@ const Rationale: React.FC = () => {
           <section className="mb-12">
             <h2 className="text-2xl font-serif font-bold text-editorial-text mb-4">4.0 Target Audience Segmentation and Platform Strategy</h2>
             <p>The campaign targets two distinct groups, requiring a channel strategy that reflects their digital behaviours (Dahl, 2021).</p>
-            
+
             <h3 className="text-xl font-bold text-editorial-text mt-6 mb-3">4.1 Audience Profiles</h3>
             <ul className="list-disc pl-6 space-y-2">
-                <li><strong>Females Aged 25-40:</strong> Motivated by prevention and quality of life. Requires substantiated evidence. Platforms: Facebook, YouTube, Google Search.</li>
-                <li><strong>Males/Females Aged 18-24 (Students):</strong> Motivated by acute relief and normalisation. Requires DTC tone and speed. Platforms: TikTok, Instagram.</li>
+              <li><strong>Females Aged 25-40:</strong> Motivated by prevention and quality of life. Requires substantiated evidence. Platforms: Facebook, YouTube, Google Search.</li>
+              <li><strong>Males/Females Aged 18-24 (Students):</strong> Motivated by acute relief and normalisation. Requires DTC tone and speed. Platforms: TikTok, Instagram.</li>
             </ul>
 
             <h3 className="text-xl font-bold text-editorial-text mt-6 mb-3">4.2 Platform Selection and Dahl’s Framework</h3>
             <p>
-                <strong>TikTok/Reels (18-24):</strong> Critical for Reach and Awareness. Focus on normalisation. <br/>
-                <strong>Facebook (25-40):</strong> Leveraged for Engagement and Loyalty via community building. <br/>
-                <strong>Project Website (All):</strong> The central hub for Persuasion and Conversion.
+              <strong>TikTok/Reels (18-24):</strong> Critical for Reach and Awareness. Focus on normalisation. <br />
+              <strong>Facebook (25-40):</strong> Leveraged for Engagement and Loyalty via community building. <br />
+              <strong>Project Website (All):</strong> The central hub for Persuasion and Conversion.
             </p>
           </section>
 
@@ -156,22 +156,22 @@ const Rationale: React.FC = () => {
             <h2 className="text-2xl font-serif font-bold text-editorial-text mb-4">5.0 Theoretical Application (Dahl, 2021)</h2>
             <h3 className="text-xl font-bold text-editorial-text mt-6 mb-3">5.1 Integrated Customer Communications (ICC)</h3>
             <p>
-                We ensure brand consistency across all touchpoints. The core theme "The Power to Prevent" remains constant, whether in a 30-second TikTok or this 2,000-word rationale. Content funneling drives traffic from social to the website for conversion.
+              We ensure brand consistency across all touchpoints. The core theme "The Power to Prevent" remains constant, whether in a 30-second TikTok or this 2,000-word rationale. Content funneling drives traffic from social to the website for conversion.
             </p>
             <h3 className="text-xl font-bold text-editorial-text mt-6 mb-3">5.2 Social Commerce</h3>
             <p>
-                Shoppable posts reduce friction. Predictive targeting ensures compliant messages reach the right audience segments.
+              Shoppable posts reduce friction. Predictive targeting ensures compliant messages reach the right audience segments.
             </p>
-             <h3 className="text-xl font-bold text-editorial-text mt-6 mb-3">5.3 Google as an Answer Machine</h3>
+            <h3 className="text-xl font-bold text-editorial-text mt-6 mb-3">5.3 Google as an Answer Machine</h3>
             <p>
-                The Infographic acts as the authoritative answer for "Why do I get recurrent UTIs?", capturing high-intent traffic.
+              The Infographic acts as the authoritative answer for "Why do I get recurrent UTIs?", capturing high-intent traffic.
             </p>
           </section>
 
-           <section className="mb-12">
+          <section className="mb-12">
             <h2 className="text-2xl font-serif font-bold text-editorial-text mb-4">7.0 Conclusion</h2>
             <p>
-                The "Power to Prevent" campaign provides a theoretically grounded and creatively compelling digital marketing strategy. By applying Dahl’s (2021) principles and adhering to MDR compliance, we effectively reposition Utipro Plus AF from a symptom treatment to an empowering, trusted preventative health solution.
+              The "Power to Prevent" campaign provides a theoretically grounded and creatively compelling digital marketing strategy. By applying Dahl’s (2021) principles and adhering to MDR compliance, we effectively reposition Utipro Plus AF from a symptom treatment to an empowering, trusted preventative health solution.
             </p>
           </section>
 
