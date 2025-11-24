@@ -111,7 +111,7 @@ const Header: React.FC = () => {
               className="mt-4 w-3/4 text-center bg-editorial-text text-white px-6 py-3 rounded-full hover:bg-editorial-accent transition-colors flex items-center justify-center space-x-2"
             >
               <ShoppingBag size={18} />
-              <span>Shop Now</span>
+              <span> <a href="https://www.utipro.ie/utiproduct/"> Shop Now</a></span>
             </button>
           </div>
         </div>

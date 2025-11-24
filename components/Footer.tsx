@@ -26,8 +26,7 @@ const Footer: React.FC = () => {
               <a href="https://www.utipro.ie/utiproduct/" target="_blank">Buy Direct from Utipro.ie</a>
             </button>
             <button className="px-6 py-3 bg-transparent border border-stone-500 text-white font-medium rounded-full hover:border-white transition-colors flex items-center justify-center w-full sm:w-auto">
-              <a href="https://www.amazon.com/UTIPro-Plus-AF-Prevent-UTIs/dp/B0BQ5JYJZJ" target="_blank">
-                Find on Amazon</a>
+              Find at the Nearest Pharmacy
             </button>
           </div>
         </div>
