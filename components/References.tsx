@@ -5,58 +5,49 @@ import Reveal from './Reveal';
 const References: React.FC = () => {
     const references = [
         {
-            title: "Efficacy of Xyloglucan in UTI Prevention",
-            authors: "De Nunzio C, Bartoletti R, Tubaro A, et al.",
-            journal: "Minerva Urologica e Nefrologica",
-            year: "2018",
-            volume: "70(4)",
-            pages: "382-391",
+            title: "Advertising Standards Authority for Ireland Code",
+            authors: "ASAI",
+            journal: "Advertising Standards Authority for Ireland",
+            year: "2024",
+            volume: "",
+            pages: "",
             link: "#"
         },
         {
-            title: "Clinical Evidence for Hibiscus sabdariffa in Urinary Health",
-            authors: "Hopkins AL, Lamm MG, Funk JL, Ritenbaugh C",
-            journal: "Journal of Functional Foods",
-            year: "2013",
-            volume: "5(2)",
-            pages: "615-626",
+            title: "Digital Marketing: Strategy, Implementation and Practice",
+            authors: "Dahl, S.",
+            journal: "7th Edition",
+            year: "2021",
+            volume: "",
+            pages: "",
             link: "#"
         },
         {
-            title: "Propolis and its Role in UTI Prevention",
-            authors: "Braakhuis A, et al.",
-            journal: "European Journal of Clinical Nutrition",
-            year: "2019",
-            volume: "73(5)",
-            pages: "673-680",
+            title: "Regulation of Medical Devices in Ireland",
+            authors: "Health Products Regulatory Authority",
+            journal: "HPRA",
+            year: "2024",
+            volume: "",
+            pages: "",
             link: "#"
         },
         {
-            title: "Recurrent UTI Management: European Association of Urology Guidelines",
-            authors: "Bonkat G, Pickard R, Bartoletti R, et al.",
-            journal: "European Association of Urology",
-            year: "2023",
-            volume: "Updated Guidelines",
-            pages: "Section 3.4",
+            title: "MK5139 Social Media Marketing Theory Project Guidelines",
+            authors: "Project Brief",
+            journal: "Course Materials",
+            year: "2025",
+            volume: "",
+            pages: "",
             link: "#"
         },
         {
-            title: "Non-Antibiotic Prevention of Recurrent Urinary Tract Infections",
-            authors: "Beerepoot MA, Geerlings SE",
-            journal: "Nature Reviews Urology",
-            year: "2016",
-            volume: "13(12)",
-            pages: "750-776",
-            link: "#"
-        },
-        {
-            title: "Dual-Action Approach in UTI Prevention: A Randomized Controlled Trial",
-            authors: "Vicariotto F, Del Piano M, Mogna L, Mogna G",
-            journal: "Current Medical Research and Opinion",
-            year: "2014",
-            volume: "30(7)",
-            pages: "1351-1358",
-            link: "#"
+            title: "About Utipro Plus AF",
+            authors: "Utipro.ie",
+            journal: "Official Website",
+            year: "2025",
+            volume: "",
+            pages: "",
+            link: "https://www.utipro.ie/"
         }
     ];
 
@@ -123,7 +114,10 @@ const References: React.FC = () => {
                                             </p>
 
                                             <p className="text-sm text-editorial-slate">
-                                                <span className="italic">{ref.journal}</span> ({ref.year}). {ref.volume}, {ref.pages}.
+                                                <span className="italic">{ref.journal}</span> ({ref.year})
+                                                {ref.volume && ref.pages && `. ${ref.volume}, ${ref.pages}`}
+                                                {ref.volume && !ref.pages && `. ${ref.volume}`}
+                                                {!ref.volume && !ref.pages && '.'}
                                             </p>
                                         </div>
                                     </Reveal>
@@ -132,7 +126,7 @@ const References: React.FC = () => {
 
                             {/* Footer Note */}
                             <div className="mt-12 pt-8 border-t border-stone-200">
-                                <div className="bg-rose-50 rounded-lg p-6 border border-rose-100">
+                                <div className="bg-emerald-50 rounded-lg p-6 border border-emerald-100">
                                     <p className="text-sm text-editorial-muted leading-relaxed">
                                         <span className="font-bold text-editorial-text">Note:</span> This list represents  a selection of key publications.
                                         For a comprehensive bibliography or specific clinical questions, please consult your healthcare provider
@@ -149,7 +143,7 @@ const References: React.FC = () => {
             <section className="pb-24">
                 <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
                     <Reveal delay={400}>
-                        <div className="bg-gradient-to-br from-editorial-accent to-rose-400 rounded-3xl shadow-2xl p-8 md:p-12 text-center text-white">
+                        <div className="bg-gradient-to-br from-editorial-accent to-emerald-400 rounded-3xl shadow-2xl p-8 md:p-12 text-center text-white">
                             <h3 className="text-3xl font-serif font-bold mb-4">
                                 Questions About the Science?
                             </h3>

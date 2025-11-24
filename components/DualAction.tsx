@@ -9,7 +9,7 @@ const DualAction: React.FC = () => {
         <Reveal>
           <div className="text-center max-w-3xl mx-auto mb-20">
             <h2 className="text-4xl font-serif text-editorial-text mb-6">
-              Two Steps Ahead: <br/>
+              Two Steps Ahead: <br />
               <span className="italic text-editorial-slate opacity-80">Targeting the Cause, Not Just Symptoms</span>
             </h2>
             <p className="text-lg text-editorial-muted leading-relaxed">
@@ -19,10 +19,10 @@ const DualAction: React.FC = () => {
         </Reveal>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-24 relative">
-            {/* Connecting Line (Desktop) */}
-            <div className="hidden md:block absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-editorial-accent opacity-20 z-0">
-               <ArrowDown size={64} />
-            </div>
+          {/* Connecting Line (Desktop) */}
+          <div className="hidden md:block absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-editorial-accent opacity-20 z-0">
+            <ArrowDown size={64} />
+          </div>
 
           {/* Step 1 */}
           <Reveal delay={100}>
@@ -31,12 +31,12 @@ const DualAction: React.FC = () => {
                 1
               </div>
               <div className="flex flex-col items-center text-center">
-                <div className="mb-6 p-4 bg-rose-50 rounded-full text-editorial-accent">
+                <div className="mb-6 p-4 bg-emerald-50 rounded-full text-editorial-accent">
                   <Shield size={48} strokeWidth={1.5} />
                 </div>
                 <h3 className="text-2xl font-serif text-editorial-text mb-4">Block the Source (Intestine)</h3>
                 <p className="text-editorial-muted mb-6 leading-relaxed">
-                  The majority of recurrent UTIs (up to 90%) originate from bacteria in the intestine. 
+                  The majority of recurrent UTIs (up to 90%) originate from bacteria in the intestine.
                   Our <strong>Xyloglucan</strong> ingredient forms a protective, non-digestible film on the intestinal lining.
                 </p>
                 <div className="bg-white p-4 rounded-xl w-full text-left border border-stone-100">
@@ -63,7 +63,7 @@ const DualAction: React.FC = () => {
                 </div>
                 <h3 className="text-2xl font-serif text-editorial-text mb-4">Soothe Symptoms (Bladder)</h3>
                 <p className="text-editorial-muted mb-6 leading-relaxed">
-                  Ingredients like <strong>Hibiscus and Propolis</strong> work to mildly acidify the urine in the bladder, 
+                  Ingredients like <strong>Hibiscus and Propolis</strong> work to mildly acidify the urine in the bladder,
                   creating an unfavorable environment for bacteria to grow and multiply.
                 </p>
                 <div className="bg-white p-4 rounded-xl w-full text-left border border-stone-100">
@@ -71,7 +71,7 @@ const DualAction: React.FC = () => {
                     <span className="font-bold text-editorial-accent">Fast Action:</span> Improves uncomfortable symptoms quickly, restoring immediate relief and comfort.
                   </p>
                 </div>
-                 <div className="mt-6 text-xs font-bold tracking-widest uppercase text-editorial-slate opacity-60">
+                <div className="mt-6 text-xs font-bold tracking-widest uppercase text-editorial-slate opacity-60">
                   Immediate Relief
                 </div>
               </div>

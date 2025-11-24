@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
   return (
     <section className="relative overflow-hidden bg-editorial-cream pt-16 pb-24 lg:pt-32 lg:pb-40">
       {/* Abstract Background Decoration */}
-      <div className="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 rounded-full bg-rose-100 blur-3xl opacity-50"></div>
+      <div className="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 rounded-full bg-emerald-100 blur-3xl opacity-50"></div>
       <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 rounded-full bg-stone-200 blur-3xl opacity-50"></div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">

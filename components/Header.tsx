@@ -24,9 +24,11 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center cursor-pointer" onClick={() => navigate('/')}>
-            <span className="font-serif text-2xl font-bold tracking-tight text-editorial-text">
-              Utipro<span className="text-editorial-accent font-light">Plus AF</span>
-            </span>
+            <img
+              src="/logo.png"
+              alt="Utipro Plus AF Logo"
+              className="h-12 md:h-14 w-auto object-contain"
+            />
           </div>
 
           {/* Desktop Navigation */}
