@@ -62,139 +62,17 @@ const ContentHub: React.FC = () => {
             {activeTab === 'infographic' && (
               <div className="space-y-8 animate-fadeIn">
                 <div className="text-center mb-8">
-                  <h3 className="text-2xl font-serif font-bold text-editorial-text">The Power to Prevent</h3>
-                  <p className="text-editorial-muted">Evidence-Based, Non-Antibiotic Solution</p>
+                  <h3 className="text-2xl font-serif font-bold text-editorial-text">5 Ways to Take Care of Yourself</h3>
+                  <p className="text-editorial-muted">Essential Self-Care Tips for UTI Prevention</p>
                 </div>
 
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
-                  {/* Competitors Card */}
-                  <div className="relative bg-gradient-to-br from-stone-100 to-stone-50 p-8 rounded-2xl border-2 border-stone-200 h-full flex flex-col overflow-hidden">
-                    {/* Warning Badge */}
-                    <div className="absolute top-4 right-4 bg-red-500 text-white px-3 py-1 rounded-full text-xs font-bold uppercase">
-                      Limited Action
-                    </div>
-
-                    <h4 className="font-bold text-stone-600 mb-6 text-center uppercase tracking-widest text-sm flex items-center justify-center space-x-2">
-                      <span className="text-2xl">⚠️</span>
-                      <span>Other Solutions</span>
-                    </h4>
-
-                    <div className="flex-grow flex flex-col justify-center items-center space-y-4 text-center">
-                      {/* Single Action Visual */}
-                      <div className="relative mb-4">
-                        <div className="w-32 h-32 bg-stone-300/50 rounded-2xl flex items-center justify-center border-2 border-dashed border-stone-400">
-                          <div className="text-center">
-                            <div className="text-3xl mb-1">🩺</div>
-                            <p className="text-xs font-bold text-stone-600 uppercase">Single<br />Action</p>
-                          </div>
-                        </div>
-                      </div>
-
-                      {/* Competitor Types */}
-                      <div className="space-y-3 max-w-xs w-full">
-                        <div className="bg-white/80 p-3 rounded-lg border border-stone-300 relative overflow-hidden">
-                          <div className="absolute top-0 right-0 bg-stone-200 text-[10px] px-2 py-0.5 text-stone-600 font-bold rounded-bl">
-                            Food Supplement
-                          </div>
-                          <p className="text-sm font-bold text-stone-700">D-Mannose</p>
-                          <p className="text-xs text-stone-500 mt-1">Bladder only</p>
-                        </div>
-                        <div className="bg-white/80 p-3 rounded-lg border border-stone-300 relative overflow-hidden">
-                          <div className="absolute top-0 right-0 bg-stone-200 text-[10px] px-2 py-0.5 text-stone-600 font-bold rounded-bl">
-                            Food Supplement
-                          </div>
-                          <p className="text-sm font-bold text-stone-700">Cranberry Supplements</p>
-                          <p className="text-xs text-stone-500 mt-1">Limited clinical evidence</p>
-                        </div>
-                      </div>
-
-                      {/* Key Limitation */}
-                      <div className="mt-4 bg-red-50 p-4 rounded-lg border border-red-200 max-w-xs">
-                        <div className="flex items-start space-x-2">
-                          <span className="text-red-500 font-bold flex-shrink-0 mt-0.5 text-lg">✕</span>
-                          <p className="text-sm text-red-700 font-medium text-left">Does not stop bacterial migration from intestine</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Utipro Plus AF Card */}
-                  <div className="relative bg-gradient-to-br from-emerald-50 to-green-50 p-8 rounded-2xl border-2 border-editorial-accent h-full flex flex-col overflow-hidden shadow-lg">
-                    {/* Premium Badge */}
-                    <div className="absolute top-4 right-4 bg-gradient-to-r from-editorial-accent to-emerald-400 text-white px-3 py-1 rounded-full text-xs font-bold uppercase shadow-md">
-                      ⭐ Dual Action
-                    </div>
-
-                    <h4 className="font-bold text-editorial-accent mb-6 text-center uppercase tracking-widest text-sm flex items-center justify-center space-x-2">
-                      <span className="text-2xl">✨</span>
-                      <span>Utipro Plus AF</span>
-                    </h4>
-
-                    <div className="flex-grow space-y-5">
-                      {/* Action 1 */}
-                      <div className="bg-white p-5 rounded-xl shadow-md border border-emerald-100 transform hover:scale-105 transition-transform duration-200">
-                        <div className="flex items-start space-x-4">
-                          <div className="flex-shrink-0 bg-gradient-to-br from-editorial-slate to-stone-600 text-white w-10 h-10 rounded-xl flex items-center justify-center font-bold text-lg shadow-md">
-                            1
-                          </div>
-                          <div className="flex-grow">
-                            <div className="flex items-center space-x-2 mb-2">
-                              <span className="text-xl">🛡️</span>
-                              <p className="font-bold text-editorial-text text-lg">Intestine Shield</p>
-                              <span className="text-green-500 font-bold ml-auto">✓</span>
-                            </div>
-                            <p className="text-sm text-editorial-muted leading-relaxed">
-                              <span className="font-semibold">Xyloglucan Film</span> blocks E. coli migration
-                            </p>
-                            <p className="text-xs text-editorial-accent mt-1 font-semibold">
-                              Source of 90% of uncomplicated UTIs
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-
-                      {/* Arrow Connector */}
-                      <div className="flex justify-center">
-                        <div className="bg-editorial-accent/10 rounded-full p-2">
-                          <ArrowDown className="text-editorial-accent w-6 h-6" strokeWidth={3} />
-                        </div>
-                      </div>
-
-                      {/* Action 2 */}
-                      <div className="bg-white p-5 rounded-xl shadow-md border border-emerald-100 transform hover:scale-105 transition-transform duration-200">
-                        <div className="flex items-start space-x-4">
-                          <div className="flex-shrink-0 bg-gradient-to-br from-editorial-accent to-emerald-400 text-white w-10 h-10 rounded-xl flex items-center justify-center font-bold text-lg shadow-md">
-                            2
-                          </div>
-                          <div className="flex-grow">
-                            <div className="flex items-center space-x-2 mb-2">
-                              <span className="text-xl">🔬</span>
-                              <p className="font-bold text-editorial-text text-lg">Bladder Defense</p>
-                              <span className="text-green-500 font-bold ml-auto">✓</span>
-                            </div>
-                            <p className="text-sm text-editorial-muted leading-relaxed">
-                              <span className="font-semibold">Hibiscus/Propolis</span> acidify urine for symptom relief
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    {/* Medical Device Badge */}
-                    <div className="mt-6 bg-gradient-to-r from-editorial-accent to-emerald-400 text-white p-4 rounded-xl text-center shadow-md">
-                      <div className="flex items-center justify-center space-x-2 mb-1">
-                        <span className="text-xl">🏥</span>
-                        <p className="text-sm font-bold uppercase tracking-wide">European Medical Device</p>
-                      </div>
-                      <p className="text-xs opacity-90">EAU Recognised | HPRA Compliant</p>
-                    </div>
-
-                    {/* Antibiotic-Sparing */}
-                    <div className="mt-3 bg-emerald-100 p-3 rounded-lg border border-emerald-200">
-                      <p className="text-xs text-center font-semibold text-emerald-800">
-                        ✓ Antibiotic-Sparing Solution
-                      </p>
-                    </div>
+                <div className="flex justify-center">
+                  <div className="max-w-4xl w-full">
+                    <img
+                      src="/self-care-infographic.png"
+                      alt="5 Ways to Take Care of Yourself - UTI Prevention Infographic"
+                      className="w-full h-auto rounded-2xl shadow-xl border-4 border-white"
+                    />
                   </div>
                 </div>
               </div>
